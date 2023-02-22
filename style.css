@@ -4,7 +4,7 @@
 body {
 	margin: 0;
 	overflow: hidden;
-	background-color: #fbf8f3;
+	background-color: #f0f0f0;
 	font-family: Nunito, sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
@@ -37,7 +37,7 @@ section.toolbox {
 
 section.canvas {
 	right: 0;
-	width: calc(100vw - 160px);
+	width: calc(100vw - 400px);
 	display: flex;
 	justify-content: center;
 	align-items: center;

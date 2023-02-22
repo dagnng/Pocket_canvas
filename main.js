@@ -1,11 +1,9 @@
 
 let canvas = null
 let bgColor = '#fbf8f3'
-
 let selectedTool = 'pen'
 let brushSelector = null
 let brushSize = 1
-
 let paintColor = '#000000'
 let ifRainbowColor = false
 let opacity = 220
