@@ -1,4 +1,4 @@
-const toolboxHeight = document.querySelector('section.toolbox').offsetHeight;
+
 let canvas = null
 let bgColor = '#fbf8f3'
 
@@ -14,7 +14,7 @@ function setup() {
   setupToolbox()
 
   // set up the canvas
-  canvas = createCanvas(windowWidth, windowHeight - toolboxHeight)
+  canvas = createCanvas(windowWidth, windowHeight)
   canvas.parent(select('section.canvas'))
   background(bgColor)
 }
