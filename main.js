@@ -157,7 +157,7 @@ function setupOpacitySlider(parentTag) {
 }
 
 function setupBrushSizeSlider(parentTag) {
-  const brushSizeSlider = setupSlider(1, 20, brushSize, 0.1, 'Brush size', parentTag, () => {
+  const brushSizeSlider = setupSlider(1, 16, brushSize, 0.1, 'Brush size', parentTag, () => {
     brushSize = brushSizeSlider.value()
   })
 }

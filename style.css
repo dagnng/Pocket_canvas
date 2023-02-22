@@ -7,11 +7,11 @@ body {
 	background-color: #fbf8f3;
 	font-family: Nunito, sans-serif;
 	font-size: 15px;
+	line-height: 1.5;
 }
 
 section {
     max-width: 100%;
-	width: 160px;
 	position: fixed;
 	bottom: 0;
 	justify-content: center;
@@ -27,7 +27,7 @@ section.toolbox {
     justify-items: center;
 	padding: 5px;
 	background-color: rgb(255, 255, 255);
-	border: 1px solid #545454;
+	border: 1px solid #dfdfdf;
     border-radius: 15px;
 	display: flex;
     flex-wrap: wrap;
@@ -46,7 +46,7 @@ section.canvas {
 }
 
 section.toolbox > div {
-	padding: 5px;
+	padding: 10px 16px 10px 16px;
 	
 }
 
@@ -70,13 +70,14 @@ label > * {
 input, button, select {
 	font-size: 15px;
 	font-family: Nunito, sans-serif;
-	width: 90%;
+	width: 100%;
 	height: 30px;
 	margin-bottom: 5px;
     padding: 0 5px;
 	border: 1px solid #f0f0f0;
 	border-radius: 15px;
 	background-color: #f0f0f0;
+	line-height: 1;
 
 }
 
