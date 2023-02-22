@@ -34,7 +34,7 @@ section.toolbox {
 }
 
 section.canvas {
-	margin: 0;
+	margin: auto;
 	width: 100%;
 	
 }
@@ -82,6 +82,15 @@ input[type="range"] {
     border-radius: 12px;
 }
 @media only screen and (max-width: 720px) {
+	section {
+		max-width: 100%;
+		width: 500px;
+		position: fixed;
+		bottom: 0;
+		justify-content: center;
+		
+	}
+	
 	section.toolbox {
 
 	bottom: 2%;

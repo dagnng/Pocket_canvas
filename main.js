@@ -1,4 +1,4 @@
-const toolboxHeight = document.querySelector('section.toolbox').offsetHeight
+const toolboxHeight = document.querySelector('section.toolbox').offsetHeight;
 let canvas = null
 let bgColor = '#fbf8f3'
 
