@@ -81,3 +81,31 @@ input[type="range"] {
 	height: 5px;
     border-radius: 12px;
 }
+@media only screen and (max-width: 720px) {
+	section.toolbox {
+
+	bottom: 2%;
+	width: 450px;
+    justify-content: center;
+    justify-items: center;
+	padding: 5px;
+	background-color: white;
+    border-radius: 20px;
+	display: flex;
+    flex-wrap: nowrap;
+	flex-direction: row;
+    z-index: 1;	
+	}
+	h2 {
+		margin-bottom: 10px;
+		font-family: Lexend Deca;
+		font-size: 10px;
+		text-transform: uppercase;
+	}
+	
+	label {
+		display: block;
+		margin-bottom: 5px;
+		font-size: 10px;
+	}
+}
