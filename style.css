@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;500&display=swap');
 
 
 body {
 	margin: 0;
 	overflow: hidden;
 	background-color: #f0f0f0;
-	font-family: Nunito, sans-serif;
+	font-family: 'Hanken Grotesk', sans-serif;
+	font-weight: 300;
 	font-size: 15px;
 	line-height: 1.5;
 }
@@ -52,7 +53,8 @@ section.toolbox > div {
 
 h2 {
 	margin-bottom: 10px;
-	font-family: Lexend Deca;
+	font-family: 'Hanken Grotesk', sans-serif;
+	font-weight: 500;
 	font-size: 15px;
 	text-transform: uppercase;
 }
@@ -69,7 +71,8 @@ label > * {
 
 input, button, select {
 	font-size: 15px;
-	font-family: Nunito, sans-serif;
+	font-family: 'Hanken Grotesk', sans-serif;
+	font-weight: 300;
 	width: 100%;
 	height: 30px;
 	margin-bottom: 5px;
@@ -94,7 +97,8 @@ input[type="range"] {
 		margin: 0;
 		overflow: hidden;
 		background-color: #f0f0f0;
-		font-family: Nunito, sans-serif;
+		font-family: 'Hanken Grotesk', sans-serif;
+		font-weight: 300;
 		font-size: 14px;
 		line-height: 1.2;
 		}
@@ -110,7 +114,9 @@ input[type="range"] {
 		bottom: 1%;
 		left: 2%;
 		width: 30em;
-		height: 30%;
+		justify-content: center;
+   		 justify-items: center;
+		height: 28%;
 		padding: 5px;
 		background-color: rgb(255, 255, 255);
 		border: 1px solid #dfdfdf;
@@ -127,7 +133,7 @@ input[type="range"] {
 		
 		section.canvas {
 		width: 100%;
-		
+		height: cal(100vh - 28%);
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -135,21 +141,22 @@ input[type="range"] {
 		}
 		
 		section.toolbox > div {
-		padding: 5px 8px 5px 8px;
+		padding: 10px;
 		
 		}
 		
 		h2 {
-		margin-bottom: 10px;
-		font-family: Lexend Deca;
-		font-size: 15px;
+		margin-bottom: 8px;
+		font-family: 'Hanken Grotesk', sans-serif;
+		font-weight: 400;
+		font-size: 13px;
 		text-transform: uppercase;
 		}
 		
 		label {
 		display: block;
 		margin-bottom: 5px;
-		font-size: 15px;
+		font-size: 13px;
 		}
 		
 		label > * {
@@ -157,8 +164,9 @@ input[type="range"] {
 		}
 		
 		input, button, select {
-		font-size: 15px;
-		font-family: Nunito, sans-serif;
+		font-size: 13px;
+		font-family: 'Hanken Grotesk', sans-serif;
+		font-weight: 300;
 		width: 100%;
 		height: 30px;
 		margin-bottom: 5px;
