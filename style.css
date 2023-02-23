@@ -95,21 +95,21 @@ input[type="range"] {
 		overflow: hidden;
 		background-color: #f0f0f0;
 		font-family: Nunito, sans-serif;
-		font-size: 15px;
-		line-height: 1.5;
+		font-size: 14px;
+		line-height: 1.2;
 		}
 		
 		section {
 		max-width: 100%;
 		position: fixed;
-		
 		bottom: 0;
 		}
 		
 		section.toolbox {
 		position: fixed;
-		bottom: 0;
-		width: 32em;
+		bottom: 1%;
+		left: 2%;
+		width: 30em;
 		height: 30%;
 		padding: 5px;
 		background-color: rgb(255, 255, 255);
@@ -135,7 +135,7 @@ input[type="range"] {
 		}
 		
 		section.toolbox > div {
-		padding: 10px 16px 10px 16px;
+		padding: 5px 8px 5px 8px;
 		
 		}
 		
