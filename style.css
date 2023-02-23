@@ -92,36 +92,68 @@ input[type="range"] {
 @media only screen and (max-width: 720px) {
 	section {
 		max-width: 100%;
-		width: 500px;
 		position: fixed;
 		bottom: 0;
 		justify-content: center;
-		
 	}
 	
 	section.toolbox {
-	bottom: 2%;
-	width: 450px;
-    justify-content: center;
-    justify-items: center;
-	padding: 5px;
-	background-color: white;
-    border-radius: 20px;
-	display: flex;
-    flex-wrap: nowrap;
-	flex-direction: row;
-    z-index: 1;	
+		bottom: 1%;
+		width: 450px;
+		justify-content: center;
+		justify-items: center;
+		padding: 5px;
+		background-color: rgb(255, 255, 255);
+		border: 1px solid #dfdfdf;
+		border-radius: 15px;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+		z-index: 1;
 	}
+	
+	section.canvas {
+		right: 0;
+		width: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	
+		
+	}
+	
+	section.toolbox > div {
+		padding: 5px;
+		
+	}
+	
 	h2 {
 		margin-bottom: 10px;
 		font-family: Lexend Deca;
-		font-size: 10px;
+		font-size: 15px;
 		text-transform: uppercase;
 	}
 	
 	label {
 		display: block;
 		margin-bottom: 5px;
-		font-size: 10px;
+		font-size: 15px;
 	}
-}
+	
+	label > * {
+		margin-top: 5px;
+	}
+	
+	input, button, select {
+		font-size: 15px;
+		font-family: Nunito, sans-serif;
+		width: 100%;
+		height: 30px;
+		margin-bottom: 5px;
+		padding: 0 5px;
+		border: 1px solid #f0f0f0;
+		border-radius: 15px;
+		background-color: #f0f0f0;
+		line-height: 1;
+	
+	}	
