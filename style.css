@@ -90,6 +90,14 @@ input[type="range"] {
     border-radius: 12px;
 }
 @media only screen and (max-width: 720px) {
+	body {
+		margin: 0;
+		overflow: hidden;
+		background-color: #f0f0f0;
+		font-family: Nunito, sans-serif;
+		font-size: 15px;
+		line-height: 1.5;
+	}
 	section {
 		max-width: 100%;
 		position: fixed;
@@ -157,3 +165,4 @@ input[type="range"] {
 		line-height: 1;
 	
 	}	
+}
