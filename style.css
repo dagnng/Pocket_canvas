@@ -112,7 +112,7 @@ input[type="range"] {
 		section.toolbox {
 		position: fixed;
 		bottom: 1%;
-		left: 1%;
+		left: 2%;
 		width: 28em;
 		justify-content: center;
    		 justify-items: center;
@@ -133,7 +133,7 @@ input[type="range"] {
 		
 		section.canvas {
 		width: 100%;
-		height: cal(100vh - 28%);
+		height: cal(100vh - 30%);
 		display: flex;
 		justify-content: center;
 		align-items: center;
