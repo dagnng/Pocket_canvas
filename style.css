@@ -97,19 +97,20 @@ input[type="range"] {
 		font-family: Nunito, sans-serif;
 		font-size: 15px;
 		line-height: 1.5;
-	}
-	section {
+		}
+		
+		section {
 		max-width: 100%;
 		position: fixed;
+		
 		bottom: 0;
-		justify-content: center;
-	}
-	
-	section.toolbox {
-		bottom: 1%;
-		width: 450px;
-		justify-content: center;
-		justify-items: center;
+		}
+		
+		section.toolbox {
+		position: fixed;
+		bottom: 0;
+		width: 32em;
+		height: 30%;
 		padding: 5px;
 		background-color: rgb(255, 255, 255);
 		border: 1px solid #dfdfdf;
@@ -117,42 +118,45 @@ input[type="range"] {
 		display: flex;
 		flex-wrap: nowrap;
 		flex-direction: row;
-		z-index: 1;
-	}
-	
-	section.canvas {
-		right: 0;
-		width: 100vh;
+
+		}
+		
+		section.toolbox.active {
+		display: flex;
+		}
+		
+		section.canvas {
+		width: 100%;
+		
 		display: flex;
 		justify-content: center;
 		align-items: center;
-	
+		margin-top: 100px;
+		}
 		
-	}
-	
-	section.toolbox > div {
-		padding: 5px;
+		section.toolbox > div {
+		padding: 10px 16px 10px 16px;
 		
-	}
-	
-	h2 {
+		}
+		
+		h2 {
 		margin-bottom: 10px;
 		font-family: Lexend Deca;
 		font-size: 15px;
 		text-transform: uppercase;
-	}
-	
-	label {
+		}
+		
+		label {
 		display: block;
 		margin-bottom: 5px;
 		font-size: 15px;
-	}
-	
-	label > * {
+		}
+		
+		label > * {
 		margin-top: 5px;
-	}
-	
-	input, button, select {
+		}
+		
+		input, button, select {
 		font-size: 15px;
 		font-family: Nunito, sans-serif;
 		width: 100%;
@@ -163,6 +167,19 @@ input[type="range"] {
 		border-radius: 15px;
 		background-color: #f0f0f0;
 		line-height: 1;
-	
-	}	
-}
+		
+		}
+		
+		input:hover, button:hover, select:hover {
+		background-color: #dfdfdf;
+		}
+		
+		input[type="range"] {
+		height: 5px;
+		border-radius: 12px;
+		}
+		
+		@media only screen and (min-width: 600px) {
+		section {
+		height: auto;
+		}
